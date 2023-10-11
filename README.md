@@ -25,6 +25,13 @@
     ```
 4. Tận hưởng trò chơi!
 
+## Hướng dẫn chơi
+1. Nhấn B để chọn cờ đen và W để chọn cờ trắng trong cửa sổ bắt đầu
+2. Nhấn vào quân muốn đi và nhấn vào ô xanh lá để thực hiện nước đi (một vài quân có thể không đi được do đang cản một quân khác chiếu tướng)
+3. Nhấn vào các quân phần promote để chọn quân muốn phong cấp
+4. Nhấn nút Undo để lùi lại nước đi trước đó của người chơi
+5. Những nước đi vừa thực hiện sẽ bị tô vàng và những quân cờ có thể di chuyển khi bị chiếu tướng được tô màu tím
+
 ## Lưu ý
 - Trò chơi này được phát triển cho mục đích học tập và nghiên cứu.
 - Nếu bạn gặp bất kỳ sự cố nào trong quá trình cài đặt hoặc sử dụng, vui lòng tạo một Issue mới trong phần Issues của dự án trên GitHub.
