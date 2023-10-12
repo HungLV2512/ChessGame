@@ -28,7 +28,7 @@
 ## Hướng dẫn chơi
 1. Nhấn B để chọn cờ đen và W để chọn cờ trắng trong cửa sổ bắt đầu
 2. Nhấn vào quân muốn đi và nhấn vào ô xanh lá để thực hiện nước đi (một vài quân có thể không đi được do đang cản một quân khác chiếu tướng)
-3. Nhấn vào các quân phần promote để chọn quân muốn phong cấp
+3. Nhấn Q(Queen), R(Rook), B(Bishop), N(Knight) để thay đổi quân muốn phong
 4. Nhấn nút Undo để lùi lại nước đi trước đó của người chơi
 5. Những nước đi vừa thực hiện sẽ bị tô vàng và những quân cờ có thể di chuyển khi bị chiếu tướng được tô màu tím
 
