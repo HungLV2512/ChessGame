@@ -15,6 +15,8 @@ if __name__ == "__main__":
                     mychess = chess.BLACK
                     turn = 1
                     start = True
+                else:
+                    promote = 'b'
             elif event.type == pygame.KEYDOWN and event.key == pygame.K_w:
                 if mychess == '':
                     mychess = chess.WHITE
@@ -22,6 +24,12 @@ if __name__ == "__main__":
                     start = True
             elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
                 run = False
+            elif event.type == pygame.KEYDOWN and event.key == pygame.K_r:
+                promote = 'r'
+            elif event.type == pygame.KEYDOWN and event.key == pygame.K_n:
+                promote = 'n'
+            elif event.type == pygame.KEYDOWN and event.key == pygame.K_q:
+                promote = 'q'
             
         if start == False:
             draw_text('Press B(Black) or W(White)', (0, 200), 64, whitee)
@@ -31,16 +39,6 @@ if __name__ == "__main__":
             draw_board()
             
             pre_move()
-            
-            if xmouse >= 610 and xmouse <= 672:
-                if ymouse >= 40 and ymouse <= 102:
-                    promote = 'q'
-                elif ymouse >= 105 and ymouse <= 167:
-                    promote = 'r'
-                elif ymouse >= 170 and ymouse <= 232:
-                    promote = 'n'
-                elif ymouse >= 235 and ymouse <= 297:
-                    promote = 'b'
             
             if turn == 1:
                 move = computer.get_computer_move(depth)

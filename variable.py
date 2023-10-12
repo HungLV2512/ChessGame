@@ -91,20 +91,7 @@ def draw_pieces_and_texts(mychess, promote):
     draw_piece(chess.KING, chess.BLACK, blackking)   
     
     pygame.draw.rect(screen, blue, pygame.Rect(560, 0, 260, 560))
-    for i in range(4):
-        pygame.draw.rect(screen, yellow, pygame.Rect(610, 40 + 65 * i, 62, 62))
     draw_text('Promote : ' + promote, (560, 0), 32, whitee)
-    
-    if mychess == chess.WHITE:
-        screen.blit(whitequeen, (610, 40))
-        screen.blit(whiterook, (610, 105))
-        screen.blit(whiteknight, (610, 170))
-        screen.blit(whitebishop, (610, 235))
-    else:
-        screen.blit(blackqueen, (610, 40))
-        screen.blit(blackrook, (610, 105))
-        screen.blit(blackknight, (610, 170))
-        screen.blit(blackbishop, (610, 235))
     
     length = len(move_history)
     if length < 10:
